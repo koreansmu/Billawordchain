@@ -28,16 +28,16 @@ async def cmd_help(message: types.Message) -> None:
 
     await message.reply(
         (
-            "/gameinfo - Game mode descriptions\n"
-            "/troubleshoot - Resolve common issues\n"
-            "/reqaddword - Request addition of words\n"
-            "/feedback - Send feedback to bot owner\n\n"
-            "You may message [Jono](tg://user?id=463998526) "
-            "in *English / Cantonese* if you have issues with the bot.\n"
-            "Official Group: https://t.me/+T30aTNo-2Xx2kc52\n"
-            "Word Additions Channel (with status updates): @on9wcwa\n"
-            "Source Code: [jonowo/on9wordchainbot](https://github.com/jonowo/on9wordchainbot)\n"
-            "Epic icon designed by [Adri](tg://user?id=303527690)"
+            "/gameinfo - Gᴀᴍᴇ Mᴏᴅᴇ Dᴇsᴄʀɪᴘᴛɪᴏɴs\n"
+            "/troubleshoot - Rᴇsᴏʟᴠᴇ Cᴏᴍᴍᴏɴ Issᴜᴇs\n"
+            "/reqaddword - Rᴇǫᴜᴇsᴛ Aᴅᴅɪᴛɪᴏɴ Oғ Wᴏʀᴅs\n"
+            "/feedback - Sᴇɴᴅ Fᴇᴇᴅʙᴀᴄᴋ Tᴏ Bᴏᴛ Oᴡɴᴇʀ\n\n"
+            "Yᴏᴜ Mᴀʏ Dᴍ [Sᴛᴇʟʟᴀʀ](tg://user?id=5960968099) "
+            "In *English / Mysterious* Iғ Yᴏᴜ Hᴀᴠᴇ Issᴜᴇs Wɪᴛʜ Tʜᴇ Bᴏᴛ.\n"
+            "Oғғɪᴄɪᴀʟ Gʀᴏᴜᴘ: https://t.me/Harmony_hub8\n"
+            "Wᴏʀᴅ Aᴅᴅɪᴛɪᴏɴ Cʜᴀɴɴᴇʟ / Gᴄ (Sᴛᴀᴛᴜs  Uᴘᴅᴀᴛᴇs): @BillaCore\n"
+            "Sᴏᴜʀᴄᴇ Cᴏᴍᴍᴜɴɪᴛʏ: [jonowo/on9wordchainbot](https://t.me/storm_core)\n"
+            "Eᴘɪᴄ Iᴄᴏɴ Dᴇsɪɢɴᴇᴅ Bʏ [Kᴇxx](tg://user?id=6257927828)"
         ),
         allow_sending_without_reply=True
     )
@@ -48,20 +48,20 @@ async def cmd_help(message: types.Message) -> None:
 async def cmd_gameinfo(message: types.Message) -> None:
     await message.reply(
         (
-            "/startclassic - Cʟᴀsɪᴄ ɢᴀᴍᴇ\n"
-            "ᴘʟᴀʏᴇʀs ᴛᴀᴋᴇ ᴛᴜʀɴs ᴛᴏ sᴇɴᴅ ᴡᴏʀᴅs sᴛᴀʀᴛɪɴɢ ᴡɪᴛʜ ᴛʜᴇ ʟᴀsᴛ ʟᴇᴛᴛᴇʀ ᴏғ ᴛʜᴇ ᴘʀᴇᴠɪᴏᴜs ᴡᴏʀᴅ.\n\n"
+            "/startclassic - Cʟᴀsɪᴄ Gᴀᴍᴇ\n"
+            "Pʟᴀʏᴇʀs Tᴀᴋᴇ Tᴜʀɴs Tᴏ Sᴇɴᴅ Wᴏʀᴅs Sᴛᴀʀᴛɪɴɢ Wɪᴛʜ Tʜᴇ Lᴀsᴛ Lᴇᴛᴛᴇʀ Oғ Tʜᴇ Pʀᴇᴠɪᴏᴜs Wᴏʀᴅ.\n\n"
             "Vᴀʀɪᴀɴᴛs:\n"
-            "/starthard - Hᴀʀᴅ ᴍᴏᴅᴇ ɢᴀᴍᴇ\n"
-            "/startrandom - Rᴀɴᴅᴏᴍ Tᴜʀɴ Oʀᴅᴇʀ ɢᴀᴍᴇ\n"
-            "/startcfl - Cʜᴏsᴇɴ ғɪʀsᴛ ʟᴇᴛᴛᴇʀ ɢᴀᴍᴇ\n"
-            "/startrfl - Rᴀɴᴅᴏᴍ ғɪʀsᴛ ʟᴇᴛᴛᴇʀ ɢᴀᴍᴇ\n"
-            "/startbl - Bᴀɴɴᴇᴅ ʟᴇᴛᴛᴇʀs ɢᴀᴍᴇ\n"
-            "/startrl - Rᴇǫᴜɪʀᴇᴅ ʟᴇᴛᴛᴇʀ ɢᴀᴍᴇ\n\n"
-            "/startelim - Eʟɪᴍɪɴᴀᴛɪᴏɴ ɢᴀᴍᴇ\n"
-            "ᴇᴀᴄʜ ᴘʟᴀʏᴇʀ's sᴄᴏʀᴇ ɪs ᴛʜᴇɪʀ ᴄᴜᴍᴜʟᴀᴛɪᴠᴇ ᴡᴏʀᴅ ʟᴇɴɢᴛʜ. "
-            "ᴛʜᴇ ʟᴏᴡᴇsᴛ sᴄᴏʀɪɴɢ ᴘʟᴀʏᴇʀs ᴀʀᴇ ᴇʟɪᴍɪɴᴀᴛᴇᴅ ᴀғᴛᴇʀ ᴇᴀᴄʜ ʀᴏᴜɴᴅ.\ɴ\ɴ"
-            "/sᴛᴀʀᴛᴍᴇʟɪᴍ - ᴍɪxᴇᴅ ᴇʟɪᴍɪɴᴀᴛɪᴏɴ ɢᴀᴍᴇ\ɴ"
-            "ᴇʟɪᴍɪɴᴀᴛɪᴏɴ ɢᴀᴍᴇ ᴡɪᴛʜ ᴅɪғғᴇʀᴇɴᴛ ᴍᴏᴅᴇs. ᴛʀʏ ᴀᴛ ᴛʜᴇ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ] (https://t.me/BillaCore)."
+            "/starthard - Hᴀʀᴅ Mᴏᴅᴇ Gᴀᴍᴇ\n"
+            "/startrandom - Rᴀɴᴅᴏᴍ Tᴜʀɴ Oʀᴅᴇʀ Gᴀᴍᴇ\n"
+            "/startcfl - Cʜᴏsᴇɴ Fɪʀsᴛ Lᴇᴛᴛᴇʀ Gᴀᴍᴇ\n"
+            "/startrfl - Rᴀɴᴅᴏᴍ Fɪʀsᴛ Lᴇᴛᴛᴇʀ Gᴀᴍᴇ\n"
+            "/startbl - Bᴀɴɴᴇᴅ Lᴇᴛᴛᴇʀs Gᴀᴍᴇ\n"
+            "/startrl - Rᴇǫᴜɪʀᴇᴅ Lᴇᴛᴛᴇʀ Gᴀᴍᴇ\n\n"
+            "/startelim - Eʟɪᴍɪɴᴀᴛɪᴏɴ Gᴀᴍᴇ\n"
+            "Eᴀᴄʜ Pʟᴀʏᴇʀ's Sᴄᴏʀᴇ Is Tʜᴇɪʀ Cᴜᴍᴜʟᴀᴛɪᴠᴇ Wᴏʀᴅ Lᴇɴɢᴛʜ. "
+            "Tʜᴇ Lᴏᴡᴇsᴛ Sᴄᴏʀɪɴɢ Pʟᴀʏᴇʀs Aʀᴇ Eʟɪᴍɪɴᴀᴛᴇᴅ Aғᴛᴇʀ Eᴀᴄʜ Rᴏᴜɴᴅ.\n\n"
+            "/startmelim - Mɪxᴇᴅ Eʟɪᴍɪɴᴀᴛɪᴏɴ Gᴀᴍᴇ\n"
+            "Eʟɪᴍɪɴᴀᴛɪᴏɴ Gᴀᴍᴇ Wɪᴛʜ Dɪғғᴇʀᴇɴᴛ Mᴏᴅᴇs. Tʀʏ Aᴛ Tʜᴇ [Oғғɪᴄɪᴀʟ Gʀᴏᴜᴘ] (https://t.me/BillaCore)."
         ),
         allow_sending_without_reply=True
     )
@@ -72,19 +72,19 @@ async def cmd_gameinfo(message: types.Message) -> None:
 async def cmd_troubleshoot(message: types.Message) -> None:
     await message.reply(
         (
-            "ᴛʜᴇsᴇ sᴛᴇᴘs ᴀssᴜᴍᴇ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟᴇɢᴇs. "
-            "ɪғ ʏᴏᴜ ᴅᴏ ɴᴏᴛ, ᴘʟᴇᴀsᴇ ᴀsᴋ ᴀ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ ᴛᴏ ᴄʜᴇᴄᴋ ɪɴsᴛᴇᴀᴅ.\n\n"
-            "<b>ɪғ ᴛʜᴇ ʙᴏᴛ ᴅᴏᴇs ɴᴏᴛ ʀᴇsᴘᴏɴᴅ ᴛᴏ <code>/start[mode]</code></b>, check if:\n"
-            "₁. ᴛʜᴇ ʙᴏᴛ ɪs ᴀʙsᴇɴᴛ ғʀᴏᴍ / ᴍᴜᴛᴇᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ "
-            "\u27a1\ufe0f Aᴅᴅ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ / ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ʙᴏᴛ\n"
-            "2. sʟᴏᴡ ᴍᴏᴅᴇmode ɪs ᴇɴᴀʙʟᴇᴅ \u27a1\ufe0f ᴅɪsᴀʙʟᴇ sʟᴏᴡ ᴍᴏᴅᴇ\n"
-            "3. Sᴏᴍᴇᴏɴᴇ sᴘᴀᴍᴍᴇᴅ ᴄᴏᴍᴍᴀɴᴅs ɪɴ ʏᴘᴜʀ ɢʀᴏᴜᴘ ʀᴇᴄᴇɴᴛʟʏ "
-            "\u27a1\ufe0f ᴛʜᴇ ʙᴏᴛ ɪs ʀᴀᴛᴇ ʟɪᴍɪᴛᴇᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ, ᴡᴀɪᴛ ᴘᴀᴛɪᴇɴᴛʟʏ\n"
-            "4. Tʜᴇ ʙᴏᴛ ᴅᴏᴇs ɴᴏᴛ ʀᴇsᴘᴏɴᴅ ᴛᴏ <code>/ping</code> "
-            "\u27a1\ufe0f ʙɪʟʟᴀ ᴡᴏʀᴅ ᴄʜᴀɪɴ ᴍɪɢʜᴛ ʙᴇ ᴏғғ, ᴄʜᴇᴄᴋ @BillaCore ғᴏʀ sᴛᴀᴛᴜs ᴜᴘᴅᴀᴛᴇ\n\n"
-            "<b>ɪғ ᴛʜᴇ ʙᴏᴛ ᴄᴀɴɴᴏᴛ ʙᴇ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ</b>:\n"
-            "1. ᴛʜᴇʀᴇ ᴄᴀɴ ʙᴇ ᴀᴛ ᴍᴏsᴛ 20 ʙᴏᴛs ɪɴ ᴀ ɢʀᴏᴜᴘ. ᴄʜᴇᴄᴋ ɪғ ᴛʜɪs ʟɪᴍɪᴛ ɪs ʀᴇᴀᴄʜᴇᴅ.\n\n"
-            "ɪғ ʏᴏᴜ ᴇɴᴄᴏᴜɴᴛᴇʀ ᴏᴛʜᴇʀ ɪssᴜᴇs, ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ  ᴅᴇᴠʟᴏᴘᴇʀ <a href='tg://user?id=5960968099'>ᴍʏ ᴏᴡɴᴇʀ</a>."
+            "Tʜᴇsᴇ Sᴛᴇᴘs Assᴜᴍᴇ Yᴏᴜ Hᴀᴠᴇ Aᴅᴍɪɴ Pʀɪᴠɪʟᴇɢᴇs. "
+            "Iғ Yᴏᴜ Dᴏ Nᴏᴛ, Pʟᴇᴀsᴇ Asᴋ A Gʀᴏᴜᴘ Aᴅᴍɪɴ Tᴏ Cʜᴇᴄᴋ Iɴsᴛᴇᴀᴅ.\n\n"
+            "<b>ɪғ Tʜᴇ Bᴏᴛ Dᴏᴇs Nᴏᴛ Rᴇsᴘᴏɴᴅ Tᴏ <code>/start[mode]</code></b>, check if:\n"
+            "₁. Tʜᴇ Bᴏᴛ Is Aʙsᴇɴᴛ Fʀᴏᴍ / Mᴜᴛᴇᴅ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ "
+            "\u27a1\ufe0f Aᴅᴅ Tʜᴇ Bɪʟʟᴀ Wᴏʀᴅ Cʜᴀɪɴ Bᴏᴛ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ / Uɴᴍᴜᴛᴇ Tʜᴇ Bᴏᴛ\n"
+            "2. Sʟᴏᴡ Mᴏᴅᴇ Is Eɴᴀʙʟᴇᴅ \u27a1\ufe0f Dɪsᴀʙʟᴇ Sʟᴏᴡ Mᴏᴅᴇ\n"
+            "3. Sᴏᴍᴇᴏɴᴇ Sᴘᴀᴍᴍᴇᴅ Cᴏᴍᴍᴀɴᴅs Iɴ YOᴜʀ Gʀᴏᴜᴘ Rᴇᴄᴇɴᴛʟʏ "
+            "\u27a1\ufe0f Tʜᴇ Bᴏᴛ Is Rᴀᴛᴇ Lɪᴍɪᴛᴇᴅ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ, Wᴀɪᴛ Pᴀᴛɪᴇɴᴛʟʏ\n"
+            "4. Tʜᴇ Bᴏᴛ Dᴏᴇs Nᴏᴛ Rᴇsᴘᴏɴᴅ Tᴏ <code>/ping</code> "
+            "\u27a1\ufe0f Bɪʟʟᴀ Wᴏʀᴅ Cʜᴀɪɴ Mɪɢʜᴛ Bᴇ Oғғ, Cʜᴇᴄᴋ @BillaCore Fᴏʀ Sᴛᴀᴛᴜs ᴜᴘᴅᴀᴛᴇ\n\n"
+            "<b>Iғ Tʜᴇ Bᴏᴛ Cᴀɴɴᴏᴛ Bᴇ Aᴅᴅᴇᴅ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ</b>:\n"
+            "1. Tʜᴇʀᴇ Cᴀɴ Bᴇ Aᴛ Mᴏsᴛ 20 Bᴏᴛs Iɴ A Gʀᴏᴜᴘ. Cʜᴇᴄᴋ Iғ Tʜɪs Lɪᴍɪᴛ Is Rᴇᴀᴄʜᴇᴅ.\n\n"
+            "Iғ Yᴏᴜ Eɴᴄᴏᴜɴᴛᴇʀ Oᴛʜᴇʀ Issᴜᴇs, Pʟᴇᴀsᴇ Cᴏɴᴛᴀᴄᴛ  Dᴇᴠʟᴏᴘᴇʀ <a href='tg://user?id=5960968099'>Mʏ Oᴡɴᴇʀ</a>."
         ),
         parse_mode=types.ParseMode.HTML,
         allow_sending_without_reply=True
