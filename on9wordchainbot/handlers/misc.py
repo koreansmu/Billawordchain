@@ -19,8 +19,9 @@ from ..words import Words
 async def cmd_start(message: types.Message) -> None:
     await message.reply(
         (
-            "Hi! I host games of word chain in Telegram groups.\n"
-            "Add me to a group to start playing games!"
+            "ʜɪ , ɪ"ᴍ ʙɪʟʟᴀ ᴡᴏʀᴅ ᴄʜᴀɪɴ ʙᴏᴛ ᴛʜᴇ ʜᴏsᴛ ᴏғ ɢᴀᴍᴇs ᴏғ ᴡᴏʀᴅ ɴ ᴀʟᴘʜᴀʙᴇᴛs ɪɴ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴄʜᴀᴛs !!.\n"
+            "ᴄᴏᴍᴍ'ᴏɴ ʜᴜʀʀʏ ᴜᴘ ᴛᴏ sᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ɢᴀᴍᴇs😹 
+ᴀᴅᴅ ᴍᴇ  ɴᴏᴡ!"
         ),
         allow_sending_without_reply=True,
         reply_markup=ADD_TO_GROUP_KEYBOARD
