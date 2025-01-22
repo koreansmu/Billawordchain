@@ -24,8 +24,8 @@ async def start_game(message: types.Message, game_type: Type[ClassicGame]) -> No
         # Only stop people from starting games, not joining
         await message.reply(
             (
-                "Maintenance mode is on. Games are temporarily disabled.\n"
-                "This is likely due to a pending bot update."
+                "Mᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ɪs ᴏɴ. Gᴀᴍᴇs ᴀʀᴇ ᴛᴇᴍᴘᴏʀᴀɪʟʏ ᴅɪsᴀʙʟᴇᴅ.\n"
+                "sᴏᴏɴ ɢᴀᴍᴇ ɴ ʙᴏᴛ ᴡɪʟʟ ɢᴇᴛ sᴛᴀʀᴛᴇᴅ ᴀs ᴜsᴜᴀʟ."
             ),
             allow_sending_without_reply=True
         )
@@ -35,8 +35,9 @@ async def start_game(message: types.Message, game_type: Type[ClassicGame]) -> No
     if message.chat.slow_mode_delay:
         await message.reply(
             (
-                "Slow mode is enabled in this group, so the bot cannot function properly.\n"
-                "If you are a group admin, please disable slow mode to start games."
+                "sʟᴏᴡ ᴍᴏᴅᴇ ɪs ᴇɴᴀʙʟᴇᴅ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ, sᴏ ᴛʜᴇ ʙᴏᴛ ᴄᴀɴɴᴏᴛ ғᴜɴᴄᴛɪᴏɴ ᴘʀᴏᴘᴇʀʟʏ.\n"
+                "ɪғ ʏᴏᴜ ᴀʀᴇ ᴀ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ, ᴘʟᴇᴀsᴇ ᴅɪsᴀʙʟᴇ sʟᴏᴡ ᴍᴏᴅᴇ ᴛᴏ sᴛᴀʀᴛ ɢᴀᴍᴇs."
+            ),
             ),
             allow_sending_without_reply=True
         )
@@ -48,8 +49,8 @@ async def start_game(message: types.Message, game_type: Type[ClassicGame]) -> No
     ):
         await message.reply(
             (
-                "This game mode is a donation reward.\n"
-                "You can try this game mode at the [official group](https://t.me/+T30aTNo-2Xx2kc52)."
+                "ᴛʜɪs ɢᴀᴍᴇ ᴍᴏᴅᴇ ɪs ᴀ ᴅᴏɴᴀᴛɪᴏɴ ʀᴇᴡᴀʀᴅ.\n"
+                "ʏᴏᴜ ᴄᴀɴ ᴛʀʏ ᴛʜɪs ɢᴀᴍᴇ ᴍᴏᴅᴇ ᴀᴛ ᴛʜᴇ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ](https://t.me/Harmony_hub8)."
             ),
             allow_sending_without_reply=True
         )
