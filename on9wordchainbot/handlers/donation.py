@@ -43,8 +43,8 @@ async def cmd_donate(message: types.Message) -> None:
             if str(e) == "Currency_total_amount_invalid":
                 await message.reply(
                     (
-                        "Sorry, the entered amount was out of range.\n"
-                        "Please enter another amount."
+                        "Sᴏʀʀʏ, ᴛʜᴇ ᴇɴᴛᴇʀᴇᴅ ᴀᴍᴏᴜɴᴛ ᴡᴀs ᴏᴜᴛ ᴏғ ʀᴀɴɢᴇ.\n"
+                        "Pʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴀɴᴏᴛʜᴇʀ ᴀᴍᴏᴜɴᴛ."
                     ),
                     allow_sending_without_reply=True
                 )
@@ -57,7 +57,7 @@ async def send_donate_msg(message: types.Message) -> None:
     await message.reply(
         (
             "Donate to support this project! \u2764\ufe0f\n"
-            "Donations are accepted in HKD (10 HKD ≈ 1.3 USD).\n"
+            "Donations are accepted in ʀs .\n"
             "Choose one of the following options or type in the desired amount in HKD (e.g. `/donate 69.69`).\n\n"
             "Donation rewards:\n"
             "Any amount: \u2b50\ufe0f is displayed next to your name\n"
