@@ -48,20 +48,20 @@ async def cmd_help(message: types.Message) -> None:
 async def cmd_gameinfo(message: types.Message) -> None:
     await message.reply(
         (
-            "/startclassic - Classic game\n"
-            "Players take turns to send words starting with the last letter of the previous word.\n\n"
-            "Variants:\n"
-            "/starthard - Hard mode game\n"
-            "/startchaos - Chaos game (random turn order)\n"
-            "/startcfl - Chosen first letter game\n"
-            "/startrfl - Random first letter game\n"
-            "/startbl - Banned letters game\n"
-            "/startrl - Required letter game\n\n"
-            "/startelim - Elimination game\n"
-            "Each player's score is their cumulative word length. "
-            "The lowest scoring players are eliminated after each round.\n\n"
-            "/startmelim - Mixed elimination game (donation reward)\n"
-            "Elimination game with different modes. Try at the [official group](https://t.me/+T30aTNo-2Xx2kc52)."
+            "/startclassic - Cʟᴀsɪᴄ ɢᴀᴍᴇ\n"
+            "ᴘʟᴀʏᴇʀs ᴛᴀᴋᴇ ᴛᴜʀɴs ᴛᴏ sᴇɴᴅ ᴡᴏʀᴅs sᴛᴀʀᴛɪɴɢ ᴡɪᴛʜ ᴛʜᴇ ʟᴀsᴛ ʟᴇᴛᴛᴇʀ ᴏғ ᴛʜᴇ ᴘʀᴇᴠɪᴏᴜs ᴡᴏʀᴅ.\n\n"
+            "Vᴀʀɪᴀɴᴛs:\n"
+            "/starthard - Hᴀʀᴅ ᴍᴏᴅᴇ ɢᴀᴍᴇ\n"
+            "/startrandom - Rᴀɴᴅᴏᴍ Tᴜʀɴ Oʀᴅᴇʀ ɢᴀᴍᴇ\n"
+            "/startcfl - Cʜᴏsᴇɴ ғɪʀsᴛ ʟᴇᴛᴛᴇʀ ɢᴀᴍᴇ\n"
+            "/startrfl - Rᴀɴᴅᴏᴍ ғɪʀsᴛ ʟᴇᴛᴛᴇʀ ɢᴀᴍᴇ\n"
+            "/startbl - Bᴀɴɴᴇᴅ ʟᴇᴛᴛᴇʀs ɢᴀᴍᴇ\n"
+            "/startrl - Rᴇǫᴜɪʀᴇᴅ ʟᴇᴛᴛᴇʀ ɢᴀᴍᴇ\n\n"
+            "/startelim - Eʟɪᴍɪɴᴀᴛɪᴏɴ ɢᴀᴍᴇ\n"
+            "ᴇᴀᴄʜ ᴘʟᴀʏᴇʀ's sᴄᴏʀᴇ ɪs ᴛʜᴇɪʀ ᴄᴜᴍᴜʟᴀᴛɪᴠᴇ ᴡᴏʀᴅ ʟᴇɴɢᴛʜ. "
+            "ᴛʜᴇ ʟᴏᴡᴇsᴛ sᴄᴏʀɪɴɢ ᴘʟᴀʏᴇʀs ᴀʀᴇ ᴇʟɪᴍɪɴᴀᴛᴇᴅ ᴀғᴛᴇʀ ᴇᴀᴄʜ ʀᴏᴜɴᴅ.\ɴ\ɴ"
+            "/sᴛᴀʀᴛᴍᴇʟɪᴍ - ᴍɪxᴇᴅ ᴇʟɪᴍɪɴᴀᴛɪᴏɴ ɢᴀᴍᴇ\ɴ"
+            "ᴇʟɪᴍɪɴᴀᴛɪᴏɴ ɢᴀᴍᴇ ᴡɪᴛʜ ᴅɪғғᴇʀᴇɴᴛ ᴍᴏᴅᴇs. ᴛʀʏ ᴀᴛ ᴛʜᴇ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ] (https://t.me/BillaCore)."
         ),
         allow_sending_without_reply=True
     )
@@ -72,19 +72,19 @@ async def cmd_gameinfo(message: types.Message) -> None:
 async def cmd_troubleshoot(message: types.Message) -> None:
     await message.reply(
         (
-            "These steps assume you have admin privileges. "
-            "If you do not, please ask a group admin to check instead.\n\n"
-            "<b>If the bot does not respond to <code>/start[mode]</code></b>, check if:\n"
-            "1. The bot is absent from / muted in your group "
-            "\u27a1\ufe0f Add the bot to your group / Unmute the bot\n"
-            "2. Slow mode is enabled \u27a1\ufe0f Disable slow mode\n"
-            "3. Someone spammed commands in your group recently "
-            "\u27a1\ufe0f The bot is rate limited in your group, wait patiently\n"
-            "4. The bot does not respond to <code>/ping</code> "
-            "\u27a1\ufe0f The bot is likely offline, check @on9wcwa for status updates\n\n"
-            "<b>If the bot cannot be added to your group</b>:\n"
-            "1. There can be at most 20 bots in a group. Check if this limit is reached.\n\n"
-            "If you encounter other issues, please contact <a href='tg://user?id=463998526'>my owner</a>."
+            "ᴛʜᴇsᴇ sᴛᴇᴘs ᴀssᴜᴍᴇ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟᴇɢᴇs. "
+            "ɪғ ʏᴏᴜ ᴅᴏ ɴᴏᴛ, ᴘʟᴇᴀsᴇ ᴀsᴋ ᴀ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ ᴛᴏ ᴄʜᴇᴄᴋ ɪɴsᴛᴇᴀᴅ.\n\n"
+            "<b>ɪғ ᴛʜᴇ ʙᴏᴛ ᴅᴏᴇs ɴᴏᴛ ʀᴇsᴘᴏɴᴅ ᴛᴏ <code>/start[mode]</code></b>, check if:\n"
+            "₁. ᴛʜᴇ ʙᴏᴛ ɪs ᴀʙsᴇɴᴛ ғʀᴏᴍ / ᴍᴜᴛᴇᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ "
+            "\u27a1\ufe0f Aᴅᴅ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ / ᴜɴᴍᴜᴛᴇ ᴛʜᴇ ʙᴏᴛ\n"
+            "2. sʟᴏᴡ ᴍᴏᴅᴇmode ɪs ᴇɴᴀʙʟᴇᴅ \u27a1\ufe0f ᴅɪsᴀʙʟᴇ sʟᴏᴡ ᴍᴏᴅᴇ\n"
+            "3. Sᴏᴍᴇᴏɴᴇ sᴘᴀᴍᴍᴇᴅ ᴄᴏᴍᴍᴀɴᴅs ɪɴ ʏᴘᴜʀ ɢʀᴏᴜᴘ ʀᴇᴄᴇɴᴛʟʏ "
+            "\u27a1\ufe0f ᴛʜᴇ ʙᴏᴛ ɪs ʀᴀᴛᴇ ʟɪᴍɪᴛᴇᴅ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ, ᴡᴀɪᴛ ᴘᴀᴛɪᴇɴᴛʟʏ\n"
+            "4. Tʜᴇ ʙᴏᴛ ᴅᴏᴇs ɴᴏᴛ ʀᴇsᴘᴏɴᴅ ᴛᴏ <code>/ping</code> "
+            "\u27a1\ufe0f ʙɪʟʟᴀ ᴡᴏʀᴅ ᴄʜᴀɪɴ ᴍɪɢʜᴛ ʙᴇ ᴏғғ, ᴄʜᴇᴄᴋ @BillaCore ғᴏʀ sᴛᴀᴛᴜs ᴜᴘᴅᴀᴛᴇ\n\n"
+            "<b>ɪғ ᴛʜᴇ ʙᴏᴛ ᴄᴀɴɴᴏᴛ ʙᴇ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ</b>:\n"
+            "1. ᴛʜᴇʀᴇ ᴄᴀɴ ʙᴇ ᴀᴛ ᴍᴏsᴛ 20 ʙᴏᴛs ɪɴ ᴀ ɢʀᴏᴜᴘ. ᴄʜᴇᴄᴋ ɪғ ᴛʜɪs ʟɪᴍɪᴛ ɪs ʀᴇᴀᴄʜᴇᴅ.\n\n"
+            "ɪғ ʏᴏᴜ ᴇɴᴄᴏᴜɴᴛᴇʀ ᴏᴛʜᴇʀ ɪssᴜᴇs, ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ  ᴅᴇᴠʟᴏᴘᴇʀ <a href='tg://user?id=5960968099'>ᴍʏ ᴏᴡɴᴇʀ</a>."
         ),
         parse_mode=types.ParseMode.HTML,
         allow_sending_without_reply=True
