@@ -69,12 +69,12 @@ async def send_donate_msg(message: types.Message) -> None:
         reply_markup=types.InlineKeyboardMarkup(
             inline_keyboard=[
                 [
-                    types.InlineKeyboardButton("10 HKD", callback_data="donate:10"),
-                    types.InlineKeyboardButton("30 HKD", callback_data="donate:30")
+                    types.InlineKeyboardButton("10 ʀs", callback_data="donate:10"),
+                    types.InlineKeyboardButton("30 ʀs", callback_data="donate:30")
                 ],
                 [
-                    types.InlineKeyboardButton("50 HKD", callback_data="donate:50"),
-                    types.InlineKeyboardButton("100 HKD", callback_data="donate:100")
+                    types.InlineKeyboardButton("50 ʀs", callback_data="donate:50"),
+                    types.InlineKeyboardButton("100 ʀs", callback_data="donate:100")
                 ]
             ]
         )
@@ -84,7 +84,7 @@ async def send_donate_msg(message: types.Message) -> None:
 async def send_donate_invoice(user_id: int, amt: int) -> None:
     await bot.send_invoice(
         chat_id=user_id,
-        title="On9 Word Chain Bot Donation",
+        title="ʙɪʟʟᴀ Word Chain Bot Donation",
         description="Support bot development",
         payload=f"on9wordchainbot_donation:{user_id}",
         provider_token=PROVIDER_TOKEN,
@@ -131,7 +131,7 @@ async def successful_payment_handler(message: types.Message) -> None:
     asyncio.create_task(
         message.answer(
             (
-                f"Your donation of {amt} HKD is successful.\n"
+                f"Your donation of {amt} ʀs is successful.\n"
                 "Thank you for your support! :D\n"
                 f"Donation id: #on9wcbot_{donation_id}"
             ),
