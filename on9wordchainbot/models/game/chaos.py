@@ -9,7 +9,7 @@ from ...utils import get_random_word
 
 class ChaosGame(ClassicGame):
     name = "chaos game"
-    command = "startchaos"
+    command = "startrandom"
 
     async def send_turn_message(self) -> None:
         await self.send_message(
