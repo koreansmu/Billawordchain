@@ -1,7 +1,7 @@
 {
   "TOKEN": "7665501150:AAHao16OVs_wBbpJLpx6rO2XkdK4aTHyoaU",
   "ON9BOT_TOKEN": "7665501150:AAHao16OVs_wBbpJLpx6rO2XkdK4aTHyoaU",
-  "DB_URI": "",
+  "DB_URI": "postgres://wsnioboi:Fkf1ef7qRJVP1CvP_gKYqhdxk6LXBbQE@balarama.db.elephantsql.com/wsnioboi",
   "PROVIDER_TOKEN": "",
   "OWNER_ID": 5960968099,
   "ADMIN_GROUP_ID": -1002374471356,
