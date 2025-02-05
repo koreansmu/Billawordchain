@@ -7,9 +7,12 @@ logger = logging.getLogger(__name__)
 # Load constants from config file
 filename = "config_beta.json" if os.path.exists("config_beta.json") else "config.json"
 logger.info("Loading constants from config file")
+
+# Open and load the JSON config file
 with open(filename) as f:
     config = json.load(f)
 
+# Extract constants from config
 TOKEN = config["TOKEN"]
 ON9BOT_TOKEN = config["ON9BOT_TOKEN"]
 DB_URI = config["DB_URI"]
@@ -21,17 +24,19 @@ WORD_ADDITION_CHANNEL_ID = config["WORD_ADDITION_CHANNEL_ID"]
 VIP = config["VIP"]
 VIP_GROUP = config["VIP_GROUP"]
 
+# URL for wordlist source
 WORDLIST_SOURCE = "https://raw.githubusercontent.com/dwyl/english-words/master/words.txt"
 
+# Unicode symbol for star
 STAR = "\u2b50\ufe0f"
 
-
+# GameState class for defining game states
 class GameState:
     JOINING = 0
     RUNNING = 1
     KILLGAME = -1
 
-
+# GameSettings class for defining game settings
 class GameSettings:
     JOINING_PHASE_SECONDS = 60
     MAX_JOINING_PHASE_SECONDS = 180
