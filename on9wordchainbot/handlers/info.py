@@ -36,7 +36,7 @@ async def cmd_help(message: types.Message) -> None:
             "In *English / Mysterious* Iғ Yᴏᴜ Hᴀᴠᴇ Issᴜᴇs Wɪᴛʜ Tʜᴇ Bᴏᴛ.\n"
             "Oғғɪᴄɪᴀʟ Gʀᴏᴜᴘ: https://t.me/Harmony_hub8\n"
             "Wᴏʀᴅ Aᴅᴅɪᴛɪᴏɴ Cʜᴀɴɴᴇʟ / Gᴄ (Sᴛᴀᴛᴜs  Uᴘᴅᴀᴛᴇs): @BillaCore\n"
-            "Sᴏᴜʀᴄᴇ Cᴏᴍᴍᴜɴɪᴛʏ: [jonowo/on9wordchainbot](https://t.me/storm_core)\n"
+            "Sᴏᴜʀᴄᴇ Cᴏᴍᴍᴜɴɪᴛʏ: [Stellar/billawordchainbot](https://t.me/billa_core)\n"
             "Eᴘɪᴄ Iᴄᴏɴ Dᴇsɪɢɴᴇᴅ Bʏ [Kᴇxx](tg://user?id=6257927828)"
         ),
         allow_sending_without_reply=True
@@ -48,7 +48,7 @@ async def cmd_help(message: types.Message) -> None:
 async def cmd_gameinfo(message: types.Message) -> None:
     await message.reply(
         (
-            "/startclassic - Cʟᴀsɪᴄ Gᴀᴍᴇ\n"
+            "/startclassic - Cʟᴀssɪᴄ Gᴀᴍᴇ\n"
             "Pʟᴀʏᴇʀs Tᴀᴋᴇ Tᴜʀɴs Tᴏ Sᴇɴᴅ Wᴏʀᴅs Sᴛᴀʀᴛɪɴɢ Wɪᴛʜ Tʜᴇ Lᴀsᴛ Lᴇᴛᴛᴇʀ Oғ Tʜᴇ Pʀᴇᴠɪᴏᴜs Wᴏʀᴅ.\n\n"
             "Vᴀʀɪᴀɴᴛs:\n"
             "/starthard - Hᴀʀᴅ Mᴏᴅᴇ Gᴀᴍᴇ\n"
